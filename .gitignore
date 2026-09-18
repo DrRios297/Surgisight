@@ -1,0 +1,41 @@
+# ---- PATIENT DATA: NEVER COMMIT ----
+surgical_reports/
+training_dataset/
+*.mp4
+*.mov
+*.avi
+*.jpg
+*.jpeg
+*.png
+!docs/**/*.png
+!docs/**/*.jpg
+
+# ---- SECRETS ----
+.env
+.env.*
+!.env.example
+*.key
+credentials.json
+
+# ---- MODEL WEIGHTS ----
+*.pt
+*.onnx
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+venv_copilot/
+.pytest_cache/
+
+# ---- Editors ----
+.vscode/
+.idea/
